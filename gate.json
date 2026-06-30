@@ -1,0 +1,4 @@
+{
+  "minVersion": "0.0.0",
+  "_README": "Eden Desktop STG update gate. The app refuses to run a version older than minVersion and shows a blocking 'required update' screen until the auto-updater installs a newer build. minVersion 0.0.0 = gate OFF (default, no one is blocked). TO FORCE AN UPGRADE: (1) publish a build whose version is >= the target to THIS repo's Releases, (2) THEN bump minVersion here to that target. NEVER set minVersion above the latest published version or older clients will be stranded with nothing to update to. Only the minVersion field is read by the app; this _README is ignored."
+}
